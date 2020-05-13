@@ -69,4 +69,10 @@ jdbc.password=admin
 ```
 
 - 生成
-![](./doc/搜狗截图20200513194257.png)
+
+方式一：
+`mvn mybatis-generator:generate`
+
+方式二：
+
+![生成方式](./doc/搜狗截图20200513194257.png)
