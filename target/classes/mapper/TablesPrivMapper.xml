@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.TablesPrivMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.TablesPriv">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Host" jdbcType="CHAR" property="host" />
+    <id column="Db" jdbcType="CHAR" property="db" />
+    <id column="User" jdbcType="CHAR" property="user" />
+    <id column="Table_name" jdbcType="CHAR" property="tableName" />
+    <result column="Grantor" jdbcType="VARCHAR" property="grantor" />
+    <result column="Timestamp" jdbcType="TIMESTAMP" property="timestamp" />
+    <result column="Table_priv" jdbcType="CHAR" property="tablePriv" />
+    <result column="Column_priv" jdbcType="CHAR" property="columnPriv" />
+  </resultMap>
+</mapper>

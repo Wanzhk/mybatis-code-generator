@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.SocketSummaryByEventNameMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.SocketSummaryByEventName">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVENT_NAME" jdbcType="VARCHAR" property="eventName" />
+    <result column="COUNT_STAR" jdbcType="BIGINT" property="countStar" />
+    <result column="SUM_TIMER_WAIT" jdbcType="BIGINT" property="sumTimerWait" />
+    <result column="MIN_TIMER_WAIT" jdbcType="BIGINT" property="minTimerWait" />
+    <result column="AVG_TIMER_WAIT" jdbcType="BIGINT" property="avgTimerWait" />
+    <result column="MAX_TIMER_WAIT" jdbcType="BIGINT" property="maxTimerWait" />
+    <result column="COUNT_READ" jdbcType="BIGINT" property="countRead" />
+    <result column="SUM_TIMER_READ" jdbcType="BIGINT" property="sumTimerRead" />
+    <result column="MIN_TIMER_READ" jdbcType="BIGINT" property="minTimerRead" />
+    <result column="AVG_TIMER_READ" jdbcType="BIGINT" property="avgTimerRead" />
+    <result column="MAX_TIMER_READ" jdbcType="BIGINT" property="maxTimerRead" />
+    <result column="SUM_NUMBER_OF_BYTES_READ" jdbcType="BIGINT" property="sumNumberOfBytesRead" />
+    <result column="COUNT_WRITE" jdbcType="BIGINT" property="countWrite" />
+    <result column="SUM_TIMER_WRITE" jdbcType="BIGINT" property="sumTimerWrite" />
+    <result column="MIN_TIMER_WRITE" jdbcType="BIGINT" property="minTimerWrite" />
+    <result column="AVG_TIMER_WRITE" jdbcType="BIGINT" property="avgTimerWrite" />
+    <result column="MAX_TIMER_WRITE" jdbcType="BIGINT" property="maxTimerWrite" />
+    <result column="SUM_NUMBER_OF_BYTES_WRITE" jdbcType="BIGINT" property="sumNumberOfBytesWrite" />
+    <result column="COUNT_MISC" jdbcType="BIGINT" property="countMisc" />
+    <result column="SUM_TIMER_MISC" jdbcType="BIGINT" property="sumTimerMisc" />
+    <result column="MIN_TIMER_MISC" jdbcType="BIGINT" property="minTimerMisc" />
+    <result column="AVG_TIMER_MISC" jdbcType="BIGINT" property="avgTimerMisc" />
+    <result column="MAX_TIMER_MISC" jdbcType="BIGINT" property="maxTimerMisc" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.ReplicationGroupMemberStatsMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.ReplicationGroupMemberStats">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="CHANNEL_NAME" jdbcType="CHAR" property="channelName" />
+    <result column="VIEW_ID" jdbcType="CHAR" property="viewId" />
+    <result column="MEMBER_ID" jdbcType="CHAR" property="memberId" />
+    <result column="COUNT_TRANSACTIONS_IN_QUEUE" jdbcType="BIGINT" property="countTransactionsInQueue" />
+    <result column="COUNT_TRANSACTIONS_CHECKED" jdbcType="BIGINT" property="countTransactionsChecked" />
+    <result column="COUNT_CONFLICTS_DETECTED" jdbcType="BIGINT" property="countConflictsDetected" />
+    <result column="COUNT_TRANSACTIONS_ROWS_VALIDATING" jdbcType="BIGINT" property="countTransactionsRowsValidating" />
+    <result column="COUNT_TRANSACTIONS_REMOTE_IN_APPLIER_QUEUE" jdbcType="BIGINT" property="countTransactionsRemoteInApplierQueue" />
+    <result column="COUNT_TRANSACTIONS_REMOTE_APPLIED" jdbcType="BIGINT" property="countTransactionsRemoteApplied" />
+    <result column="COUNT_TRANSACTIONS_LOCAL_PROPOSED" jdbcType="BIGINT" property="countTransactionsLocalProposed" />
+    <result column="COUNT_TRANSACTIONS_LOCAL_ROLLBACK" jdbcType="BIGINT" property="countTransactionsLocalRollback" />
+    <result column="TRANSACTIONS_COMMITTED_ALL_MEMBERS" jdbcType="LONGVARCHAR" property="transactionsCommittedAllMembers" />
+    <result column="LAST_CONFLICT_FREE_TRANSACTION" jdbcType="LONGVARCHAR" property="lastConflictFreeTransaction" />
+  </resultMap>
+</mapper>

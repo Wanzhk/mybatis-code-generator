@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.ReplicationApplierConfigurationMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.ReplicationApplierConfiguration">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="CHANNEL_NAME" jdbcType="CHAR" property="channelName" />
+    <result column="DESIRED_DELAY" jdbcType="INTEGER" property="desiredDelay" />
+    <result column="REQUIRE_ROW_FORMAT" jdbcType="CHAR" property="requireRowFormat" />
+    <result column="PRIVILEGE_CHECKS_USER" jdbcType="LONGVARCHAR" property="privilegeChecksUser" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.SchemaTablesWithFullTableScansMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.SchemaTablesWithFullTableScans">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="object_schema" jdbcType="VARCHAR" property="objectSchema" />
+    <result column="object_name" jdbcType="VARCHAR" property="objectName" />
+    <result column="rows_full_scanned" jdbcType="BIGINT" property="rowsFullScanned" />
+    <result column="latency" jdbcType="VARCHAR" property="latency" />
+  </resultMap>
+</mapper>

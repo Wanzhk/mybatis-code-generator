@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.SlaveWorkerInfoMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.SlaveWorkerInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Channel_name" jdbcType="CHAR" property="channelName" />
+    <id column="Id" jdbcType="INTEGER" property="id" />
+    <result column="Relay_log_pos" jdbcType="BIGINT" property="relayLogPos" />
+    <result column="Master_log_pos" jdbcType="BIGINT" property="masterLogPos" />
+    <result column="Checkpoint_relay_log_pos" jdbcType="BIGINT" property="checkpointRelayLogPos" />
+    <result column="Checkpoint_master_log_pos" jdbcType="BIGINT" property="checkpointMasterLogPos" />
+    <result column="Checkpoint_seqno" jdbcType="INTEGER" property="checkpointSeqno" />
+    <result column="Checkpoint_group_size" jdbcType="INTEGER" property="checkpointGroupSize" />
+    <result column="Relay_log_name" jdbcType="LONGVARCHAR" property="relayLogName" />
+    <result column="Master_log_name" jdbcType="LONGVARCHAR" property="masterLogName" />
+    <result column="Checkpoint_relay_log_name" jdbcType="LONGVARCHAR" property="checkpointRelayLogName" />
+    <result column="Checkpoint_master_log_name" jdbcType="LONGVARCHAR" property="checkpointMasterLogName" />
+    <result column="Checkpoint_group_bitmap" jdbcType="LONGVARBINARY" property="checkpointGroupBitmap" />
+  </resultMap>
+</mapper>

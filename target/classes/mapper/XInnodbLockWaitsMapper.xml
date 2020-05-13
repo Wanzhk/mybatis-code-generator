@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.XInnodbLockWaitsMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.XInnodbLockWaits">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="wait_started" jdbcType="TIMESTAMP" property="waitStarted" />
+    <result column="wait_age" jdbcType="TIME" property="waitAge" />
+    <result column="wait_age_secs" jdbcType="BIGINT" property="waitAgeSecs" />
+    <result column="locked_table_schema" jdbcType="VARCHAR" property="lockedTableSchema" />
+    <result column="locked_table_name" jdbcType="VARCHAR" property="lockedTableName" />
+    <result column="locked_table_partition" jdbcType="VARCHAR" property="lockedTablePartition" />
+    <result column="locked_table_subpartition" jdbcType="VARCHAR" property="lockedTableSubpartition" />
+    <result column="locked_index" jdbcType="VARCHAR" property="lockedIndex" />
+    <result column="locked_type" jdbcType="VARCHAR" property="lockedType" />
+    <result column="waiting_trx_id" jdbcType="VARCHAR" property="waitingTrxId" />
+    <result column="waiting_trx_started" jdbcType="TIMESTAMP" property="waitingTrxStarted" />
+    <result column="waiting_trx_age" jdbcType="TIME" property="waitingTrxAge" />
+    <result column="waiting_trx_rows_locked" jdbcType="BIGINT" property="waitingTrxRowsLocked" />
+    <result column="waiting_trx_rows_modified" jdbcType="BIGINT" property="waitingTrxRowsModified" />
+    <result column="waiting_pid" jdbcType="BIGINT" property="waitingPid" />
+    <result column="waiting_query" jdbcType="VARCHAR" property="waitingQuery" />
+    <result column="waiting_lock_id" jdbcType="VARCHAR" property="waitingLockId" />
+    <result column="waiting_lock_mode" jdbcType="VARCHAR" property="waitingLockMode" />
+    <result column="blocking_trx_id" jdbcType="VARCHAR" property="blockingTrxId" />
+    <result column="blocking_pid" jdbcType="BIGINT" property="blockingPid" />
+    <result column="blocking_query" jdbcType="VARCHAR" property="blockingQuery" />
+    <result column="blocking_lock_id" jdbcType="VARCHAR" property="blockingLockId" />
+    <result column="blocking_lock_mode" jdbcType="VARCHAR" property="blockingLockMode" />
+    <result column="blocking_trx_started" jdbcType="TIMESTAMP" property="blockingTrxStarted" />
+    <result column="blocking_trx_age" jdbcType="TIME" property="blockingTrxAge" />
+    <result column="blocking_trx_rows_locked" jdbcType="BIGINT" property="blockingTrxRowsLocked" />
+    <result column="blocking_trx_rows_modified" jdbcType="BIGINT" property="blockingTrxRowsModified" />
+    <result column="sql_kill_blocking_query" jdbcType="VARCHAR" property="sqlKillBlockingQuery" />
+    <result column="sql_kill_blocking_connection" jdbcType="VARCHAR" property="sqlKillBlockingConnection" />
+    <result column="locked_table" jdbcType="LONGVARCHAR" property="lockedTable" />
+  </resultMap>
+</mapper>

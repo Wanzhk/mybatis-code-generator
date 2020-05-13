@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.EventsStagesHistoryMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.EventsStagesHistory">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="THREAD_ID" jdbcType="BIGINT" property="threadId" />
+    <id column="EVENT_ID" jdbcType="BIGINT" property="eventId" />
+    <result column="END_EVENT_ID" jdbcType="BIGINT" property="endEventId" />
+    <result column="EVENT_NAME" jdbcType="VARCHAR" property="eventName" />
+    <result column="SOURCE" jdbcType="VARCHAR" property="source" />
+    <result column="TIMER_START" jdbcType="BIGINT" property="timerStart" />
+    <result column="TIMER_END" jdbcType="BIGINT" property="timerEnd" />
+    <result column="TIMER_WAIT" jdbcType="BIGINT" property="timerWait" />
+    <result column="WORK_COMPLETED" jdbcType="BIGINT" property="workCompleted" />
+    <result column="WORK_ESTIMATED" jdbcType="BIGINT" property="workEstimated" />
+    <result column="NESTING_EVENT_ID" jdbcType="BIGINT" property="nestingEventId" />
+    <result column="NESTING_EVENT_TYPE" jdbcType="CHAR" property="nestingEventType" />
+  </resultMap>
+</mapper>

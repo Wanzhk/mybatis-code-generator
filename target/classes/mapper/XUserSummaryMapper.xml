@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.XUserSummaryMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.XUserSummary">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="user" jdbcType="VARCHAR" property="user" />
+    <result column="statements" jdbcType="DECIMAL" property="statements" />
+    <result column="statement_latency" jdbcType="DECIMAL" property="statementLatency" />
+    <result column="statement_avg_latency" jdbcType="DECIMAL" property="statementAvgLatency" />
+    <result column="table_scans" jdbcType="DECIMAL" property="tableScans" />
+    <result column="file_ios" jdbcType="DECIMAL" property="fileIos" />
+    <result column="file_io_latency" jdbcType="DECIMAL" property="fileIoLatency" />
+    <result column="current_connections" jdbcType="DECIMAL" property="currentConnections" />
+    <result column="total_connections" jdbcType="DECIMAL" property="totalConnections" />
+    <result column="unique_hosts" jdbcType="BIGINT" property="uniqueHosts" />
+    <result column="current_memory" jdbcType="DECIMAL" property="currentMemory" />
+    <result column="total_memory_allocated" jdbcType="DECIMAL" property="totalMemoryAllocated" />
+  </resultMap>
+</mapper>

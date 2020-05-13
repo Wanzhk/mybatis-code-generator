@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.SessionSslStatusMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.SessionSslStatus">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="thread_id" jdbcType="BIGINT" property="threadId" />
+    <result column="ssl_version" jdbcType="VARCHAR" property="sslVersion" />
+    <result column="ssl_cipher" jdbcType="VARCHAR" property="sslCipher" />
+    <result column="ssl_sessions_reused" jdbcType="VARCHAR" property="sslSessionsReused" />
+  </resultMap>
+</mapper>

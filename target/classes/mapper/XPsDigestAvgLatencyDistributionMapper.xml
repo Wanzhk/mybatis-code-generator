@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.XPsDigestAvgLatencyDistributionMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.XPsDigestAvgLatencyDistribution">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="cnt" jdbcType="BIGINT" property="cnt" />
+    <result column="avg_us" jdbcType="DECIMAL" property="avgUs" />
+  </resultMap>
+</mapper>

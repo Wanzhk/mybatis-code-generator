@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.LogStatusMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.LogStatus">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="SERVER_UUID" jdbcType="CHAR" property="serverUuid" />
+    <result column="LOCAL" jdbcType="LONGVARCHAR" property="local" />
+    <result column="REPLICATION" jdbcType="LONGVARCHAR" property="replication" />
+    <result column="STORAGE_ENGINES" jdbcType="LONGVARCHAR" property="storageEngines" />
+  </resultMap>
+</mapper>

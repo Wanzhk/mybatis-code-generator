@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.HostCacheMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.HostCache">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="IP" jdbcType="VARCHAR" property="ip" />
+    <result column="HOST" jdbcType="VARCHAR" property="host" />
+    <result column="HOST_VALIDATED" jdbcType="CHAR" property="hostValidated" />
+    <result column="SUM_CONNECT_ERRORS" jdbcType="BIGINT" property="sumConnectErrors" />
+    <result column="COUNT_HOST_BLOCKED_ERRORS" jdbcType="BIGINT" property="countHostBlockedErrors" />
+    <result column="COUNT_NAMEINFO_TRANSIENT_ERRORS" jdbcType="BIGINT" property="countNameinfoTransientErrors" />
+    <result column="COUNT_NAMEINFO_PERMANENT_ERRORS" jdbcType="BIGINT" property="countNameinfoPermanentErrors" />
+    <result column="COUNT_FORMAT_ERRORS" jdbcType="BIGINT" property="countFormatErrors" />
+    <result column="COUNT_ADDRINFO_TRANSIENT_ERRORS" jdbcType="BIGINT" property="countAddrinfoTransientErrors" />
+    <result column="COUNT_ADDRINFO_PERMANENT_ERRORS" jdbcType="BIGINT" property="countAddrinfoPermanentErrors" />
+    <result column="COUNT_FCRDNS_ERRORS" jdbcType="BIGINT" property="countFcrdnsErrors" />
+    <result column="COUNT_HOST_ACL_ERRORS" jdbcType="BIGINT" property="countHostAclErrors" />
+    <result column="COUNT_NO_AUTH_PLUGIN_ERRORS" jdbcType="BIGINT" property="countNoAuthPluginErrors" />
+    <result column="COUNT_AUTH_PLUGIN_ERRORS" jdbcType="BIGINT" property="countAuthPluginErrors" />
+    <result column="COUNT_HANDSHAKE_ERRORS" jdbcType="BIGINT" property="countHandshakeErrors" />
+    <result column="COUNT_PROXY_USER_ERRORS" jdbcType="BIGINT" property="countProxyUserErrors" />
+    <result column="COUNT_PROXY_USER_ACL_ERRORS" jdbcType="BIGINT" property="countProxyUserAclErrors" />
+    <result column="COUNT_AUTHENTICATION_ERRORS" jdbcType="BIGINT" property="countAuthenticationErrors" />
+    <result column="COUNT_SSL_ERRORS" jdbcType="BIGINT" property="countSslErrors" />
+    <result column="COUNT_MAX_USER_CONNECTIONS_ERRORS" jdbcType="BIGINT" property="countMaxUserConnectionsErrors" />
+    <result column="COUNT_MAX_USER_CONNECTIONS_PER_HOUR_ERRORS" jdbcType="BIGINT" property="countMaxUserConnectionsPerHourErrors" />
+    <result column="COUNT_DEFAULT_DATABASE_ERRORS" jdbcType="BIGINT" property="countDefaultDatabaseErrors" />
+    <result column="COUNT_INIT_CONNECT_ERRORS" jdbcType="BIGINT" property="countInitConnectErrors" />
+    <result column="COUNT_LOCAL_ERRORS" jdbcType="BIGINT" property="countLocalErrors" />
+    <result column="COUNT_UNKNOWN_ERRORS" jdbcType="BIGINT" property="countUnknownErrors" />
+    <result column="FIRST_SEEN" jdbcType="TIMESTAMP" property="firstSeen" />
+    <result column="LAST_SEEN" jdbcType="TIMESTAMP" property="lastSeen" />
+    <result column="FIRST_ERROR_SEEN" jdbcType="TIMESTAMP" property="firstErrorSeen" />
+    <result column="LAST_ERROR_SEEN" jdbcType="TIMESTAMP" property="lastErrorSeen" />
+  </resultMap>
+</mapper>

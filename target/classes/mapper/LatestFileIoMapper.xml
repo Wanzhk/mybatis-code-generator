@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.LatestFileIoMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.LatestFileIo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="thread" jdbcType="VARCHAR" property="thread" />
+    <result column="file" jdbcType="VARCHAR" property="file" />
+    <result column="latency" jdbcType="VARCHAR" property="latency" />
+    <result column="operation" jdbcType="VARCHAR" property="operation" />
+    <result column="requested" jdbcType="VARCHAR" property="requested" />
+  </resultMap>
+</mapper>

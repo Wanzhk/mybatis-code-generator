@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.MutexInstancesMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.MutexInstances">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="objectInstanceBegin" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="LOCKED_BY_THREAD_ID" jdbcType="BIGINT" property="lockedByThreadId" />
+  </resultMap>
+</mapper>

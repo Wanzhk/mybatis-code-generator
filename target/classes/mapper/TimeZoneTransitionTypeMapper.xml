@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.TimeZoneTransitionTypeMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.TimeZoneTransitionType">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Time_zone_id" jdbcType="INTEGER" property="timeZoneId" />
+    <id column="Transition_type_id" jdbcType="INTEGER" property="transitionTypeId" />
+    <result column="Offset" jdbcType="INTEGER" property="offset" />
+    <result column="Is_DST" jdbcType="TINYINT" property="isDst" />
+    <result column="Abbreviation" jdbcType="CHAR" property="abbreviation" />
+  </resultMap>
+</mapper>

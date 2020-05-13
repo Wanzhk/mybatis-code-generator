@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.B3SoloPluginMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.B3SoloPlugin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="oId" jdbcType="VARCHAR" property="oid" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="version" jdbcType="VARCHAR" property="version" />
+    <result column="author" jdbcType="LONGVARCHAR" property="author" />
+    <result column="setting" jdbcType="LONGVARCHAR" property="setting" />
+  </resultMap>
+</mapper>

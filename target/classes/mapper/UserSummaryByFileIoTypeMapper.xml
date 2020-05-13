@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.UserSummaryByFileIoTypeMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.UserSummaryByFileIoType">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="user" jdbcType="VARCHAR" property="user" />
+    <result column="event_name" jdbcType="VARCHAR" property="eventName" />
+    <result column="total" jdbcType="BIGINT" property="total" />
+    <result column="latency" jdbcType="VARCHAR" property="latency" />
+    <result column="max_latency" jdbcType="VARCHAR" property="maxLatency" />
+  </resultMap>
+</mapper>

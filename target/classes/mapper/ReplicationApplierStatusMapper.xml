@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.ReplicationApplierStatusMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.ReplicationApplierStatus">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="CHANNEL_NAME" jdbcType="CHAR" property="channelName" />
+    <result column="SERVICE_STATE" jdbcType="CHAR" property="serviceState" />
+    <result column="REMAINING_DELAY" jdbcType="INTEGER" property="remainingDelay" />
+    <result column="COUNT_TRANSACTIONS_RETRIES" jdbcType="BIGINT" property="countTransactionsRetries" />
+  </resultMap>
+</mapper>

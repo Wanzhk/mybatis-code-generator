@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.XSchemaTableLockWaitsMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.XSchemaTableLockWaits">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="object_schema" jdbcType="VARCHAR" property="objectSchema" />
+    <result column="object_name" jdbcType="VARCHAR" property="objectName" />
+    <result column="waiting_thread_id" jdbcType="BIGINT" property="waitingThreadId" />
+    <result column="waiting_pid" jdbcType="BIGINT" property="waitingPid" />
+    <result column="waiting_lock_type" jdbcType="VARCHAR" property="waitingLockType" />
+    <result column="waiting_lock_duration" jdbcType="VARCHAR" property="waitingLockDuration" />
+    <result column="waiting_query_secs" jdbcType="BIGINT" property="waitingQuerySecs" />
+    <result column="waiting_query_rows_affected" jdbcType="BIGINT" property="waitingQueryRowsAffected" />
+    <result column="waiting_query_rows_examined" jdbcType="BIGINT" property="waitingQueryRowsExamined" />
+    <result column="blocking_thread_id" jdbcType="BIGINT" property="blockingThreadId" />
+    <result column="blocking_pid" jdbcType="BIGINT" property="blockingPid" />
+    <result column="blocking_lock_type" jdbcType="VARCHAR" property="blockingLockType" />
+    <result column="blocking_lock_duration" jdbcType="VARCHAR" property="blockingLockDuration" />
+    <result column="sql_kill_blocking_query" jdbcType="VARCHAR" property="sqlKillBlockingQuery" />
+    <result column="sql_kill_blocking_connection" jdbcType="VARCHAR" property="sqlKillBlockingConnection" />
+    <result column="waiting_account" jdbcType="LONGVARCHAR" property="waitingAccount" />
+    <result column="waiting_query" jdbcType="LONGVARCHAR" property="waitingQuery" />
+    <result column="blocking_account" jdbcType="LONGVARCHAR" property="blockingAccount" />
+  </resultMap>
+</mapper>

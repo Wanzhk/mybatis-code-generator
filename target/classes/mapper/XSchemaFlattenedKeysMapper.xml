@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.XSchemaFlattenedKeysMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.XSchemaFlattenedKeys">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="table_schema" jdbcType="VARCHAR" property="tableSchema" />
+    <result column="table_name" jdbcType="VARCHAR" property="tableName" />
+    <result column="index_name" jdbcType="VARCHAR" property="indexName" />
+    <result column="non_unique" jdbcType="INTEGER" property="nonUnique" />
+    <result column="subpart_exists" jdbcType="BIGINT" property="subpartExists" />
+    <result column="index_columns" jdbcType="LONGVARCHAR" property="indexColumns" />
+  </resultMap>
+</mapper>

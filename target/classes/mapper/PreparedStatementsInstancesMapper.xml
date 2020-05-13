@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.PreparedStatementsInstancesMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.PreparedStatementsInstances">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="objectInstanceBegin" />
+    <result column="STATEMENT_ID" jdbcType="BIGINT" property="statementId" />
+    <result column="STATEMENT_NAME" jdbcType="VARCHAR" property="statementName" />
+    <result column="OWNER_THREAD_ID" jdbcType="BIGINT" property="ownerThreadId" />
+    <result column="OWNER_EVENT_ID" jdbcType="BIGINT" property="ownerEventId" />
+    <result column="OWNER_OBJECT_TYPE" jdbcType="CHAR" property="ownerObjectType" />
+    <result column="OWNER_OBJECT_SCHEMA" jdbcType="VARCHAR" property="ownerObjectSchema" />
+    <result column="OWNER_OBJECT_NAME" jdbcType="VARCHAR" property="ownerObjectName" />
+    <result column="TIMER_PREPARE" jdbcType="BIGINT" property="timerPrepare" />
+    <result column="COUNT_REPREPARE" jdbcType="BIGINT" property="countReprepare" />
+    <result column="COUNT_EXECUTE" jdbcType="BIGINT" property="countExecute" />
+    <result column="SUM_TIMER_EXECUTE" jdbcType="BIGINT" property="sumTimerExecute" />
+    <result column="MIN_TIMER_EXECUTE" jdbcType="BIGINT" property="minTimerExecute" />
+    <result column="AVG_TIMER_EXECUTE" jdbcType="BIGINT" property="avgTimerExecute" />
+    <result column="MAX_TIMER_EXECUTE" jdbcType="BIGINT" property="maxTimerExecute" />
+    <result column="SUM_LOCK_TIME" jdbcType="BIGINT" property="sumLockTime" />
+    <result column="SUM_ERRORS" jdbcType="BIGINT" property="sumErrors" />
+    <result column="SUM_WARNINGS" jdbcType="BIGINT" property="sumWarnings" />
+    <result column="SUM_ROWS_AFFECTED" jdbcType="BIGINT" property="sumRowsAffected" />
+    <result column="SUM_ROWS_SENT" jdbcType="BIGINT" property="sumRowsSent" />
+    <result column="SUM_ROWS_EXAMINED" jdbcType="BIGINT" property="sumRowsExamined" />
+    <result column="SUM_CREATED_TMP_DISK_TABLES" jdbcType="BIGINT" property="sumCreatedTmpDiskTables" />
+    <result column="SUM_CREATED_TMP_TABLES" jdbcType="BIGINT" property="sumCreatedTmpTables" />
+    <result column="SUM_SELECT_FULL_JOIN" jdbcType="BIGINT" property="sumSelectFullJoin" />
+    <result column="SUM_SELECT_FULL_RANGE_JOIN" jdbcType="BIGINT" property="sumSelectFullRangeJoin" />
+    <result column="SUM_SELECT_RANGE" jdbcType="BIGINT" property="sumSelectRange" />
+    <result column="SUM_SELECT_RANGE_CHECK" jdbcType="BIGINT" property="sumSelectRangeCheck" />
+    <result column="SUM_SELECT_SCAN" jdbcType="BIGINT" property="sumSelectScan" />
+    <result column="SUM_SORT_MERGE_PASSES" jdbcType="BIGINT" property="sumSortMergePasses" />
+    <result column="SUM_SORT_RANGE" jdbcType="BIGINT" property="sumSortRange" />
+    <result column="SUM_SORT_ROWS" jdbcType="BIGINT" property="sumSortRows" />
+    <result column="SUM_SORT_SCAN" jdbcType="BIGINT" property="sumSortScan" />
+    <result column="SUM_NO_INDEX_USED" jdbcType="BIGINT" property="sumNoIndexUsed" />
+    <result column="SUM_NO_GOOD_INDEX_USED" jdbcType="BIGINT" property="sumNoGoodIndexUsed" />
+    <result column="SQL_TEXT" jdbcType="LONGVARCHAR" property="sqlText" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.B3SoloArticleMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.B3SoloArticle">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="oId" jdbcType="VARCHAR" property="oid" />
+    <result column="articleTitle" jdbcType="VARCHAR" property="articletitle" />
+    <result column="articleAuthorId" jdbcType="VARCHAR" property="articleauthorid" />
+    <result column="articleCommentCount" jdbcType="INTEGER" property="articlecommentcount" />
+    <result column="articleViewCount" jdbcType="INTEGER" property="articleviewcount" />
+    <result column="articlePermalink" jdbcType="VARCHAR" property="articlepermalink" />
+    <result column="articlePutTop" jdbcType="CHAR" property="articleputtop" />
+    <result column="articleCreated" jdbcType="BIGINT" property="articlecreated" />
+    <result column="articleUpdated" jdbcType="BIGINT" property="articleupdated" />
+    <result column="articleRandomDouble" jdbcType="DOUBLE" property="articlerandomdouble" />
+    <result column="articleSignId" jdbcType="VARCHAR" property="articlesignid" />
+    <result column="articleCommentable" jdbcType="CHAR" property="articlecommentable" />
+    <result column="articleViewPwd" jdbcType="VARCHAR" property="articleviewpwd" />
+    <result column="articleImg1URL" jdbcType="VARCHAR" property="articleimg1url" />
+    <result column="articleStatus" jdbcType="INTEGER" property="articlestatus" />
+    <result column="articleAbstract" jdbcType="LONGVARCHAR" property="articleabstract" />
+    <result column="articleAbstractText" jdbcType="LONGVARCHAR" property="articleabstracttext" />
+    <result column="articleTags" jdbcType="LONGVARCHAR" property="articletags" />
+    <result column="articleContent" jdbcType="LONGVARCHAR" property="articlecontent" />
+  </resultMap>
+</mapper>

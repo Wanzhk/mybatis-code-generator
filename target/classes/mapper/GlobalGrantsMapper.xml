@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.GlobalGrantsMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.GlobalGrants">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="USER" jdbcType="CHAR" property="user" />
+    <id column="HOST" jdbcType="CHAR" property="host" />
+    <id column="PRIV" jdbcType="CHAR" property="priv" />
+    <result column="WITH_GRANT_OPTION" jdbcType="CHAR" property="withGrantOption" />
+  </resultMap>
+</mapper>

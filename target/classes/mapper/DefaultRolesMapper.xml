@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.DefaultRolesMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.DefaultRoles">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HOST" jdbcType="CHAR" property="host" />
+    <id column="USER" jdbcType="CHAR" property="user" />
+    <id column="DEFAULT_ROLE_HOST" jdbcType="CHAR" property="defaultRoleHost" />
+    <id column="DEFAULT_ROLE_USER" jdbcType="CHAR" property="defaultRoleUser" />
+  </resultMap>
+</mapper>

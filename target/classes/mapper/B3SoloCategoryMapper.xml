@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.B3SoloCategoryMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.B3SoloCategory">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="oId" jdbcType="VARCHAR" property="oid" />
+    <result column="categoryTitle" jdbcType="VARCHAR" property="categorytitle" />
+    <result column="categoryURI" jdbcType="VARCHAR" property="categoryuri" />
+    <result column="categoryOrder" jdbcType="INTEGER" property="categoryorder" />
+    <result column="categoryTagCnt" jdbcType="INTEGER" property="categorytagcnt" />
+    <result column="categoryDescription" jdbcType="LONGVARCHAR" property="categorydescription" />
+  </resultMap>
+</mapper>

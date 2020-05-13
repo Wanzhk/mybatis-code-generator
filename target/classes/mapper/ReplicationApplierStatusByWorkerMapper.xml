@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.ReplicationApplierStatusByWorkerMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.ReplicationApplierStatusByWorker">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="CHANNEL_NAME" jdbcType="CHAR" property="channelName" />
+    <id column="WORKER_ID" jdbcType="BIGINT" property="workerId" />
+    <result column="THREAD_ID" jdbcType="BIGINT" property="threadId" />
+    <result column="SERVICE_STATE" jdbcType="CHAR" property="serviceState" />
+    <result column="LAST_ERROR_NUMBER" jdbcType="INTEGER" property="lastErrorNumber" />
+    <result column="LAST_ERROR_MESSAGE" jdbcType="VARCHAR" property="lastErrorMessage" />
+    <result column="LAST_ERROR_TIMESTAMP" jdbcType="TIMESTAMP" property="lastErrorTimestamp" />
+    <result column="LAST_APPLIED_TRANSACTION" jdbcType="CHAR" property="lastAppliedTransaction" />
+    <result column="LAST_APPLIED_TRANSACTION_ORIGINAL_COMMIT_TIMESTAMP" jdbcType="TIMESTAMP" property="lastAppliedTransactionOriginalCommitTimestamp" />
+    <result column="LAST_APPLIED_TRANSACTION_IMMEDIATE_COMMIT_TIMESTAMP" jdbcType="TIMESTAMP" property="lastAppliedTransactionImmediateCommitTimestamp" />
+    <result column="LAST_APPLIED_TRANSACTION_START_APPLY_TIMESTAMP" jdbcType="TIMESTAMP" property="lastAppliedTransactionStartApplyTimestamp" />
+    <result column="LAST_APPLIED_TRANSACTION_END_APPLY_TIMESTAMP" jdbcType="TIMESTAMP" property="lastAppliedTransactionEndApplyTimestamp" />
+    <result column="APPLYING_TRANSACTION" jdbcType="CHAR" property="applyingTransaction" />
+    <result column="APPLYING_TRANSACTION_ORIGINAL_COMMIT_TIMESTAMP" jdbcType="TIMESTAMP" property="applyingTransactionOriginalCommitTimestamp" />
+    <result column="APPLYING_TRANSACTION_IMMEDIATE_COMMIT_TIMESTAMP" jdbcType="TIMESTAMP" property="applyingTransactionImmediateCommitTimestamp" />
+    <result column="APPLYING_TRANSACTION_START_APPLY_TIMESTAMP" jdbcType="TIMESTAMP" property="applyingTransactionStartApplyTimestamp" />
+    <result column="LAST_APPLIED_TRANSACTION_RETRIES_COUNT" jdbcType="BIGINT" property="lastAppliedTransactionRetriesCount" />
+    <result column="LAST_APPLIED_TRANSACTION_LAST_TRANSIENT_ERROR_NUMBER" jdbcType="INTEGER" property="lastAppliedTransactionLastTransientErrorNumber" />
+    <result column="LAST_APPLIED_TRANSACTION_LAST_TRANSIENT_ERROR_MESSAGE" jdbcType="VARCHAR" property="lastAppliedTransactionLastTransientErrorMessage" />
+    <result column="LAST_APPLIED_TRANSACTION_LAST_TRANSIENT_ERROR_TIMESTAMP" jdbcType="TIMESTAMP" property="lastAppliedTransactionLastTransientErrorTimestamp" />
+    <result column="APPLYING_TRANSACTION_RETRIES_COUNT" jdbcType="BIGINT" property="applyingTransactionRetriesCount" />
+    <result column="APPLYING_TRANSACTION_LAST_TRANSIENT_ERROR_NUMBER" jdbcType="INTEGER" property="applyingTransactionLastTransientErrorNumber" />
+    <result column="APPLYING_TRANSACTION_LAST_TRANSIENT_ERROR_MESSAGE" jdbcType="VARCHAR" property="applyingTransactionLastTransientErrorMessage" />
+    <result column="APPLYING_TRANSACTION_LAST_TRANSIENT_ERROR_TIMESTAMP" jdbcType="TIMESTAMP" property="applyingTransactionLastTransientErrorTimestamp" />
+  </resultMap>
+</mapper>

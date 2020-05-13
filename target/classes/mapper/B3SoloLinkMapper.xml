@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.B3SoloLinkMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.B3SoloLink">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="oId" jdbcType="VARCHAR" property="oid" />
+    <result column="linkAddress" jdbcType="VARCHAR" property="linkaddress" />
+    <result column="linkDescription" jdbcType="VARCHAR" property="linkdescription" />
+    <result column="linkOrder" jdbcType="INTEGER" property="linkorder" />
+    <result column="linkTitle" jdbcType="VARCHAR" property="linktitle" />
+    <result column="linkIcon" jdbcType="VARCHAR" property="linkicon" />
+  </resultMap>
+</mapper>

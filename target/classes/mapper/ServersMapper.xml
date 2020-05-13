@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.ServersMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.Servers">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Server_name" jdbcType="CHAR" property="serverName" />
+    <result column="Host" jdbcType="CHAR" property="host" />
+    <result column="Db" jdbcType="CHAR" property="db" />
+    <result column="Username" jdbcType="CHAR" property="username" />
+    <result column="Password" jdbcType="CHAR" property="password" />
+    <result column="Port" jdbcType="INTEGER" property="port" />
+    <result column="Socket" jdbcType="CHAR" property="socket" />
+    <result column="Wrapper" jdbcType="CHAR" property="wrapper" />
+    <result column="Owner" jdbcType="CHAR" property="owner" />
+  </resultMap>
+</mapper>

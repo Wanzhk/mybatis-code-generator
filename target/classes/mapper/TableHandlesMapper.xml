@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.TableHandlesMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.TableHandles">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="objectInstanceBegin" />
+    <result column="OBJECT_TYPE" jdbcType="VARCHAR" property="objectType" />
+    <result column="OBJECT_SCHEMA" jdbcType="VARCHAR" property="objectSchema" />
+    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
+    <result column="OWNER_THREAD_ID" jdbcType="BIGINT" property="ownerThreadId" />
+    <result column="OWNER_EVENT_ID" jdbcType="BIGINT" property="ownerEventId" />
+    <result column="INTERNAL_LOCK" jdbcType="VARCHAR" property="internalLock" />
+    <result column="EXTERNAL_LOCK" jdbcType="VARCHAR" property="externalLock" />
+  </resultMap>
+</mapper>

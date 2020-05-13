@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.StatementsWithRuntimesIn95thPercentileMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.StatementsWithRuntimesIn95thPercentile">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="db" jdbcType="VARCHAR" property="db" />
+    <result column="full_scan" jdbcType="VARCHAR" property="fullScan" />
+    <result column="exec_count" jdbcType="BIGINT" property="execCount" />
+    <result column="err_count" jdbcType="BIGINT" property="errCount" />
+    <result column="warn_count" jdbcType="BIGINT" property="warnCount" />
+    <result column="total_latency" jdbcType="VARCHAR" property="totalLatency" />
+    <result column="max_latency" jdbcType="VARCHAR" property="maxLatency" />
+    <result column="avg_latency" jdbcType="VARCHAR" property="avgLatency" />
+    <result column="rows_sent" jdbcType="BIGINT" property="rowsSent" />
+    <result column="rows_sent_avg" jdbcType="DECIMAL" property="rowsSentAvg" />
+    <result column="rows_examined" jdbcType="BIGINT" property="rowsExamined" />
+    <result column="rows_examined_avg" jdbcType="DECIMAL" property="rowsExaminedAvg" />
+    <result column="first_seen" jdbcType="TIMESTAMP" property="firstSeen" />
+    <result column="last_seen" jdbcType="TIMESTAMP" property="lastSeen" />
+    <result column="digest" jdbcType="VARCHAR" property="digest" />
+    <result column="query" jdbcType="LONGVARCHAR" property="query" />
+  </resultMap>
+</mapper>

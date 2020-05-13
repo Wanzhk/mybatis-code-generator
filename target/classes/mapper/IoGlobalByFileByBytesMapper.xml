@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.IoGlobalByFileByBytesMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.IoGlobalByFileByBytes">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="file" jdbcType="VARCHAR" property="file" />
+    <result column="count_read" jdbcType="BIGINT" property="countRead" />
+    <result column="total_read" jdbcType="VARCHAR" property="totalRead" />
+    <result column="avg_read" jdbcType="VARCHAR" property="avgRead" />
+    <result column="count_write" jdbcType="BIGINT" property="countWrite" />
+    <result column="total_written" jdbcType="VARCHAR" property="totalWritten" />
+    <result column="avg_write" jdbcType="VARCHAR" property="avgWrite" />
+    <result column="total" jdbcType="VARCHAR" property="total" />
+    <result column="write_pct" jdbcType="DECIMAL" property="writePct" />
+  </resultMap>
+</mapper>

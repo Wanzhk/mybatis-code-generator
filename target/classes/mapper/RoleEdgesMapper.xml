@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.RoleEdgesMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.RoleEdges">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="FROM_HOST" jdbcType="CHAR" property="fromHost" />
+    <id column="FROM_USER" jdbcType="CHAR" property="fromUser" />
+    <id column="TO_HOST" jdbcType="CHAR" property="toHost" />
+    <id column="TO_USER" jdbcType="CHAR" property="toUser" />
+    <result column="WITH_ADMIN_OPTION" jdbcType="CHAR" property="withAdminOption" />
+  </resultMap>
+</mapper>

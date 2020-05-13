@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.DataLockWaitsMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.DataLockWaits">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ENGINE" jdbcType="VARCHAR" property="engine" />
+    <result column="REQUESTING_ENGINE_LOCK_ID" jdbcType="VARCHAR" property="requestingEngineLockId" />
+    <result column="REQUESTING_ENGINE_TRANSACTION_ID" jdbcType="BIGINT" property="requestingEngineTransactionId" />
+    <result column="REQUESTING_THREAD_ID" jdbcType="BIGINT" property="requestingThreadId" />
+    <result column="REQUESTING_EVENT_ID" jdbcType="BIGINT" property="requestingEventId" />
+    <result column="REQUESTING_OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="requestingObjectInstanceBegin" />
+    <result column="BLOCKING_ENGINE_LOCK_ID" jdbcType="VARCHAR" property="blockingEngineLockId" />
+    <result column="BLOCKING_ENGINE_TRANSACTION_ID" jdbcType="BIGINT" property="blockingEngineTransactionId" />
+    <result column="BLOCKING_THREAD_ID" jdbcType="BIGINT" property="blockingThreadId" />
+    <result column="BLOCKING_EVENT_ID" jdbcType="BIGINT" property="blockingEventId" />
+    <result column="BLOCKING_OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="blockingObjectInstanceBegin" />
+  </resultMap>
+</mapper>

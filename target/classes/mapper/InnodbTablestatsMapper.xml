@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.InnodbTableStatsMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.InnodbTableStats">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="database_name" jdbcType="VARCHAR" property="databaseName" />
+    <id column="table_name" jdbcType="VARCHAR" property="tableName" />
+    <result column="last_update" jdbcType="TIMESTAMP" property="lastUpdate" />
+    <result column="n_rows" jdbcType="BIGINT" property="nRows" />
+    <result column="clustered_index_size" jdbcType="BIGINT" property="clusteredIndexSize" />
+    <result column="sum_of_other_index_sizes" jdbcType="BIGINT" property="sumOfOtherIndexSizes" />
+  </resultMap>
+</mapper>

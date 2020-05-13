@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.TableIoWaitsSummaryByIndexUsageMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.TableIoWaitsSummaryByIndexUsage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="OBJECT_TYPE" jdbcType="VARCHAR" property="objectType" />
+    <result column="OBJECT_SCHEMA" jdbcType="VARCHAR" property="objectSchema" />
+    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
+    <result column="INDEX_NAME" jdbcType="VARCHAR" property="indexName" />
+    <result column="COUNT_STAR" jdbcType="BIGINT" property="countStar" />
+    <result column="SUM_TIMER_WAIT" jdbcType="BIGINT" property="sumTimerWait" />
+    <result column="MIN_TIMER_WAIT" jdbcType="BIGINT" property="minTimerWait" />
+    <result column="AVG_TIMER_WAIT" jdbcType="BIGINT" property="avgTimerWait" />
+    <result column="MAX_TIMER_WAIT" jdbcType="BIGINT" property="maxTimerWait" />
+    <result column="COUNT_READ" jdbcType="BIGINT" property="countRead" />
+    <result column="SUM_TIMER_READ" jdbcType="BIGINT" property="sumTimerRead" />
+    <result column="MIN_TIMER_READ" jdbcType="BIGINT" property="minTimerRead" />
+    <result column="AVG_TIMER_READ" jdbcType="BIGINT" property="avgTimerRead" />
+    <result column="MAX_TIMER_READ" jdbcType="BIGINT" property="maxTimerRead" />
+    <result column="COUNT_WRITE" jdbcType="BIGINT" property="countWrite" />
+    <result column="SUM_TIMER_WRITE" jdbcType="BIGINT" property="sumTimerWrite" />
+    <result column="MIN_TIMER_WRITE" jdbcType="BIGINT" property="minTimerWrite" />
+    <result column="AVG_TIMER_WRITE" jdbcType="BIGINT" property="avgTimerWrite" />
+    <result column="MAX_TIMER_WRITE" jdbcType="BIGINT" property="maxTimerWrite" />
+    <result column="COUNT_FETCH" jdbcType="BIGINT" property="countFetch" />
+    <result column="SUM_TIMER_FETCH" jdbcType="BIGINT" property="sumTimerFetch" />
+    <result column="MIN_TIMER_FETCH" jdbcType="BIGINT" property="minTimerFetch" />
+    <result column="AVG_TIMER_FETCH" jdbcType="BIGINT" property="avgTimerFetch" />
+    <result column="MAX_TIMER_FETCH" jdbcType="BIGINT" property="maxTimerFetch" />
+    <result column="COUNT_INSERT" jdbcType="BIGINT" property="countInsert" />
+    <result column="SUM_TIMER_INSERT" jdbcType="BIGINT" property="sumTimerInsert" />
+    <result column="MIN_TIMER_INSERT" jdbcType="BIGINT" property="minTimerInsert" />
+    <result column="AVG_TIMER_INSERT" jdbcType="BIGINT" property="avgTimerInsert" />
+    <result column="MAX_TIMER_INSERT" jdbcType="BIGINT" property="maxTimerInsert" />
+    <result column="COUNT_UPDATE" jdbcType="BIGINT" property="countUpdate" />
+    <result column="SUM_TIMER_UPDATE" jdbcType="BIGINT" property="sumTimerUpdate" />
+    <result column="MIN_TIMER_UPDATE" jdbcType="BIGINT" property="minTimerUpdate" />
+    <result column="AVG_TIMER_UPDATE" jdbcType="BIGINT" property="avgTimerUpdate" />
+    <result column="MAX_TIMER_UPDATE" jdbcType="BIGINT" property="maxTimerUpdate" />
+    <result column="COUNT_DELETE" jdbcType="BIGINT" property="countDelete" />
+    <result column="SUM_TIMER_DELETE" jdbcType="BIGINT" property="sumTimerDelete" />
+    <result column="MIN_TIMER_DELETE" jdbcType="BIGINT" property="minTimerDelete" />
+    <result column="AVG_TIMER_DELETE" jdbcType="BIGINT" property="avgTimerDelete" />
+    <result column="MAX_TIMER_DELETE" jdbcType="BIGINT" property="maxTimerDelete" />
+  </resultMap>
+</mapper>

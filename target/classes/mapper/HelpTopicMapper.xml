@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.HelpTopicMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.HelpTopic">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="help_topic_id" jdbcType="INTEGER" property="helpTopicId" />
+    <result column="name" jdbcType="CHAR" property="name" />
+    <result column="help_category_id" jdbcType="SMALLINT" property="helpCategoryId" />
+    <result column="description" jdbcType="LONGVARCHAR" property="description" />
+    <result column="example" jdbcType="LONGVARCHAR" property="example" />
+    <result column="url" jdbcType="LONGVARCHAR" property="url" />
+  </resultMap>
+</mapper>

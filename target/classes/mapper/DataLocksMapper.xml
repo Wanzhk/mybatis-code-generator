@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.DataLocksMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.DataLocks">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ENGINE_LOCK_ID" jdbcType="VARCHAR" property="engineLockId" />
+    <id column="ENGINE" jdbcType="VARCHAR" property="engine" />
+    <result column="ENGINE_TRANSACTION_ID" jdbcType="BIGINT" property="engineTransactionId" />
+    <result column="THREAD_ID" jdbcType="BIGINT" property="threadId" />
+    <result column="EVENT_ID" jdbcType="BIGINT" property="eventId" />
+    <result column="OBJECT_SCHEMA" jdbcType="VARCHAR" property="objectSchema" />
+    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
+    <result column="PARTITION_NAME" jdbcType="VARCHAR" property="partitionName" />
+    <result column="SUBPARTITION_NAME" jdbcType="VARCHAR" property="subpartitionName" />
+    <result column="INDEX_NAME" jdbcType="VARCHAR" property="indexName" />
+    <result column="OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="objectInstanceBegin" />
+    <result column="LOCK_TYPE" jdbcType="VARCHAR" property="lockType" />
+    <result column="LOCK_MODE" jdbcType="VARCHAR" property="lockMode" />
+    <result column="LOCK_STATUS" jdbcType="VARCHAR" property="lockStatus" />
+    <result column="LOCK_DATA" jdbcType="VARCHAR" property="lockData" />
+  </resultMap>
+</mapper>

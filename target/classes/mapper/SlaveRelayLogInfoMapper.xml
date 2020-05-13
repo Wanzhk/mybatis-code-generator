@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.SlaveRelayLogInfoMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.SlaveRelayLogInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Channel_name" jdbcType="CHAR" property="channelName" />
+    <result column="Number_of_lines" jdbcType="INTEGER" property="numberOfLines" />
+    <result column="Relay_log_pos" jdbcType="BIGINT" property="relayLogPos" />
+    <result column="Master_log_pos" jdbcType="BIGINT" property="masterLogPos" />
+    <result column="Sql_delay" jdbcType="INTEGER" property="sqlDelay" />
+    <result column="Number_of_workers" jdbcType="INTEGER" property="numberOfWorkers" />
+    <result column="Id" jdbcType="INTEGER" property="id" />
+    <result column="Privilege_checks_username" jdbcType="CHAR" property="privilegeChecksUsername" />
+    <result column="Privilege_checks_hostname" jdbcType="CHAR" property="privilegeChecksHostname" />
+    <result column="Require_row_format" jdbcType="BIT" property="requireRowFormat" />
+    <result column="Relay_log_name" jdbcType="LONGVARCHAR" property="relayLogName" />
+    <result column="Master_log_name" jdbcType="LONGVARCHAR" property="masterLogName" />
+  </resultMap>
+</mapper>

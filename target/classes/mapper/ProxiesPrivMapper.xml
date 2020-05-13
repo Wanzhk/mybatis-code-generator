@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.ProxiesPrivMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.ProxiesPriv">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Host" jdbcType="CHAR" property="host" />
+    <id column="User" jdbcType="CHAR" property="user" />
+    <id column="Proxied_host" jdbcType="CHAR" property="proxiedHost" />
+    <id column="Proxied_user" jdbcType="CHAR" property="proxiedUser" />
+    <result column="With_grant" jdbcType="BIT" property="withGrant" />
+    <result column="Grantor" jdbcType="VARCHAR" property="grantor" />
+    <result column="Timestamp" jdbcType="TIMESTAMP" property="timestamp" />
+  </resultMap>
+</mapper>

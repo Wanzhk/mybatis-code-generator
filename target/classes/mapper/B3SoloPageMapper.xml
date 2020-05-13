@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.B3SoloPageMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.B3SoloPage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="oId" jdbcType="VARCHAR" property="oid" />
+    <result column="pageOrder" jdbcType="INTEGER" property="pageorder" />
+    <result column="pagePermalink" jdbcType="VARCHAR" property="pagepermalink" />
+    <result column="pageTitle" jdbcType="VARCHAR" property="pagetitle" />
+    <result column="pageOpenTarget" jdbcType="VARCHAR" property="pageopentarget" />
+    <result column="pageIcon" jdbcType="VARCHAR" property="pageicon" />
+  </resultMap>
+</mapper>

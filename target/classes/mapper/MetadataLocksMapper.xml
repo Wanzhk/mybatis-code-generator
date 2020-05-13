@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.MetadataLocksMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.MetadataLocks">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="objectInstanceBegin" />
+    <result column="OBJECT_TYPE" jdbcType="VARCHAR" property="objectType" />
+    <result column="OBJECT_SCHEMA" jdbcType="VARCHAR" property="objectSchema" />
+    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
+    <result column="COLUMN_NAME" jdbcType="VARCHAR" property="columnName" />
+    <result column="LOCK_TYPE" jdbcType="VARCHAR" property="lockType" />
+    <result column="LOCK_DURATION" jdbcType="VARCHAR" property="lockDuration" />
+    <result column="LOCK_STATUS" jdbcType="VARCHAR" property="lockStatus" />
+    <result column="SOURCE" jdbcType="VARCHAR" property="source" />
+    <result column="OWNER_THREAD_ID" jdbcType="BIGINT" property="ownerThreadId" />
+    <result column="OWNER_EVENT_ID" jdbcType="BIGINT" property="ownerEventId" />
+  </resultMap>
+</mapper>

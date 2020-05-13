@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.SchemaTableStatisticsMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.SchemaTableStatistics">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="table_schema" jdbcType="VARCHAR" property="tableSchema" />
+    <result column="table_name" jdbcType="VARCHAR" property="tableName" />
+    <result column="total_latency" jdbcType="VARCHAR" property="totalLatency" />
+    <result column="rows_fetched" jdbcType="BIGINT" property="rowsFetched" />
+    <result column="fetch_latency" jdbcType="VARCHAR" property="fetchLatency" />
+    <result column="rows_inserted" jdbcType="BIGINT" property="rowsInserted" />
+    <result column="insert_latency" jdbcType="VARCHAR" property="insertLatency" />
+    <result column="rows_updated" jdbcType="BIGINT" property="rowsUpdated" />
+    <result column="update_latency" jdbcType="VARCHAR" property="updateLatency" />
+    <result column="rows_deleted" jdbcType="BIGINT" property="rowsDeleted" />
+    <result column="delete_latency" jdbcType="VARCHAR" property="deleteLatency" />
+    <result column="io_read_requests" jdbcType="DECIMAL" property="ioReadRequests" />
+    <result column="io_read" jdbcType="VARCHAR" property="ioRead" />
+    <result column="io_read_latency" jdbcType="VARCHAR" property="ioReadLatency" />
+    <result column="io_write_requests" jdbcType="DECIMAL" property="ioWriteRequests" />
+    <result column="io_write" jdbcType="VARCHAR" property="ioWrite" />
+    <result column="io_write_latency" jdbcType="VARCHAR" property="ioWriteLatency" />
+    <result column="io_misc_requests" jdbcType="DECIMAL" property="ioMiscRequests" />
+    <result column="io_misc_latency" jdbcType="VARCHAR" property="ioMiscLatency" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.B3SoloCommentMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.B3SoloComment">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="oId" jdbcType="VARCHAR" property="oid" />
+    <result column="commentCreated" jdbcType="BIGINT" property="commentcreated" />
+    <result column="commentName" jdbcType="VARCHAR" property="commentname" />
+    <result column="commentOnId" jdbcType="VARCHAR" property="commentonid" />
+    <result column="commentSharpURL" jdbcType="VARCHAR" property="commentsharpurl" />
+    <result column="commentURL" jdbcType="VARCHAR" property="commenturl" />
+    <result column="commentOriginalCommentId" jdbcType="VARCHAR" property="commentoriginalcommentid" />
+    <result column="commentOriginalCommentName" jdbcType="VARCHAR" property="commentoriginalcommentname" />
+    <result column="commentContent" jdbcType="LONGVARCHAR" property="commentcontent" />
+    <result column="commentThumbnailURL" jdbcType="LONGVARCHAR" property="commentthumbnailurl" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.XSchemaTableStatisticsWithBufferMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.XSchemaTableStatisticsWithBuffer">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="table_schema" jdbcType="VARCHAR" property="tableSchema" />
+    <result column="table_name" jdbcType="VARCHAR" property="tableName" />
+    <result column="rows_fetched" jdbcType="BIGINT" property="rowsFetched" />
+    <result column="fetch_latency" jdbcType="BIGINT" property="fetchLatency" />
+    <result column="rows_inserted" jdbcType="BIGINT" property="rowsInserted" />
+    <result column="insert_latency" jdbcType="BIGINT" property="insertLatency" />
+    <result column="rows_updated" jdbcType="BIGINT" property="rowsUpdated" />
+    <result column="update_latency" jdbcType="BIGINT" property="updateLatency" />
+    <result column="rows_deleted" jdbcType="BIGINT" property="rowsDeleted" />
+    <result column="delete_latency" jdbcType="BIGINT" property="deleteLatency" />
+    <result column="io_read_requests" jdbcType="DECIMAL" property="ioReadRequests" />
+    <result column="io_read" jdbcType="DECIMAL" property="ioRead" />
+    <result column="io_read_latency" jdbcType="DECIMAL" property="ioReadLatency" />
+    <result column="io_write_requests" jdbcType="DECIMAL" property="ioWriteRequests" />
+    <result column="io_write" jdbcType="DECIMAL" property="ioWrite" />
+    <result column="io_write_latency" jdbcType="DECIMAL" property="ioWriteLatency" />
+    <result column="io_misc_requests" jdbcType="DECIMAL" property="ioMiscRequests" />
+    <result column="io_misc_latency" jdbcType="DECIMAL" property="ioMiscLatency" />
+    <result column="innodb_buffer_allocated" jdbcType="DECIMAL" property="innodbBufferAllocated" />
+    <result column="innodb_buffer_data" jdbcType="DECIMAL" property="innodbBufferData" />
+    <result column="innodb_buffer_free" jdbcType="DECIMAL" property="innodbBufferFree" />
+    <result column="innodb_buffer_pages" jdbcType="BIGINT" property="innodbBufferPages" />
+    <result column="innodb_buffer_pages_hashed" jdbcType="BIGINT" property="innodbBufferPagesHashed" />
+    <result column="innodb_buffer_pages_old" jdbcType="BIGINT" property="innodbBufferPagesOld" />
+    <result column="innodb_buffer_rows_cached" jdbcType="DECIMAL" property="innodbBufferRowsCached" />
+  </resultMap>
+</mapper>

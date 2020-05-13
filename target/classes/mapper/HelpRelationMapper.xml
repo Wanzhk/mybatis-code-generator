@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.HelpRelationMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.HelpRelation">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="help_keyword_id" jdbcType="INTEGER" property="helpKeywordId" />
+    <id column="help_topic_id" jdbcType="INTEGER" property="helpTopicId" />
+  </resultMap>
+</mapper>

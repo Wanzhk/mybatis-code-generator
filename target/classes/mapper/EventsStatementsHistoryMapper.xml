@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.EventsStatementsHistoryMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.EventsStatementsHistory">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="THREAD_ID" jdbcType="BIGINT" property="threadId" />
+    <id column="EVENT_ID" jdbcType="BIGINT" property="eventId" />
+    <result column="END_EVENT_ID" jdbcType="BIGINT" property="endEventId" />
+    <result column="EVENT_NAME" jdbcType="VARCHAR" property="eventName" />
+    <result column="SOURCE" jdbcType="VARCHAR" property="source" />
+    <result column="TIMER_START" jdbcType="BIGINT" property="timerStart" />
+    <result column="TIMER_END" jdbcType="BIGINT" property="timerEnd" />
+    <result column="TIMER_WAIT" jdbcType="BIGINT" property="timerWait" />
+    <result column="LOCK_TIME" jdbcType="BIGINT" property="lockTime" />
+    <result column="DIGEST" jdbcType="VARCHAR" property="digest" />
+    <result column="CURRENT_SCHEMA" jdbcType="VARCHAR" property="currentSchema" />
+    <result column="OBJECT_TYPE" jdbcType="VARCHAR" property="objectType" />
+    <result column="OBJECT_SCHEMA" jdbcType="VARCHAR" property="objectSchema" />
+    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
+    <result column="OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="objectInstanceBegin" />
+    <result column="MYSQL_ERRNO" jdbcType="INTEGER" property="mysqlErrno" />
+    <result column="RETURNED_SQLSTATE" jdbcType="VARCHAR" property="returnedSqlstate" />
+    <result column="MESSAGE_TEXT" jdbcType="VARCHAR" property="messageText" />
+    <result column="ERRORS" jdbcType="BIGINT" property="errors" />
+    <result column="WARNINGS" jdbcType="BIGINT" property="warnings" />
+    <result column="ROWS_AFFECTED" jdbcType="BIGINT" property="rowsAffected" />
+    <result column="ROWS_SENT" jdbcType="BIGINT" property="rowsSent" />
+    <result column="ROWS_EXAMINED" jdbcType="BIGINT" property="rowsExamined" />
+    <result column="CREATED_TMP_DISK_TABLES" jdbcType="BIGINT" property="createdTmpDiskTables" />
+    <result column="CREATED_TMP_TABLES" jdbcType="BIGINT" property="createdTmpTables" />
+    <result column="SELECT_FULL_JOIN" jdbcType="BIGINT" property="selectFullJoin" />
+    <result column="SELECT_FULL_RANGE_JOIN" jdbcType="BIGINT" property="selectFullRangeJoin" />
+    <result column="SELECT_RANGE" jdbcType="BIGINT" property="selectRange" />
+    <result column="SELECT_RANGE_CHECK" jdbcType="BIGINT" property="selectRangeCheck" />
+    <result column="SELECT_SCAN" jdbcType="BIGINT" property="selectScan" />
+    <result column="SORT_MERGE_PASSES" jdbcType="BIGINT" property="sortMergePasses" />
+    <result column="SORT_RANGE" jdbcType="BIGINT" property="sortRange" />
+    <result column="SORT_ROWS" jdbcType="BIGINT" property="sortRows" />
+    <result column="SORT_SCAN" jdbcType="BIGINT" property="sortScan" />
+    <result column="NO_INDEX_USED" jdbcType="BIGINT" property="noIndexUsed" />
+    <result column="NO_GOOD_INDEX_USED" jdbcType="BIGINT" property="noGoodIndexUsed" />
+    <result column="NESTING_EVENT_ID" jdbcType="BIGINT" property="nestingEventId" />
+    <result column="NESTING_EVENT_TYPE" jdbcType="CHAR" property="nestingEventType" />
+    <result column="NESTING_EVENT_LEVEL" jdbcType="INTEGER" property="nestingEventLevel" />
+    <result column="STATEMENT_ID" jdbcType="BIGINT" property="statementId" />
+    <result column="SQL_TEXT" jdbcType="LONGVARCHAR" property="sqlText" />
+    <result column="DIGEST_TEXT" jdbcType="LONGVARCHAR" property="digestText" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.MetricsMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.Metrics">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="Variable_name" jdbcType="VARCHAR" property="variableName" />
+    <result column="Type" jdbcType="VARCHAR" property="type" />
+    <result column="Enabled" jdbcType="VARCHAR" property="enabled" />
+    <result column="Variable_value" jdbcType="LONGVARCHAR" property="variableValue" />
+  </resultMap>
+</mapper>

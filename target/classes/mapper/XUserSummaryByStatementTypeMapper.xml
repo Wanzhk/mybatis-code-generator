@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.XUserSummaryByStatementTypeMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.XUserSummaryByStatementType">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="user" jdbcType="VARCHAR" property="user" />
+    <result column="statement" jdbcType="VARCHAR" property="statement" />
+    <result column="total" jdbcType="BIGINT" property="total" />
+    <result column="total_latency" jdbcType="BIGINT" property="totalLatency" />
+    <result column="max_latency" jdbcType="BIGINT" property="maxLatency" />
+    <result column="lock_latency" jdbcType="BIGINT" property="lockLatency" />
+    <result column="rows_sent" jdbcType="BIGINT" property="rowsSent" />
+    <result column="rows_examined" jdbcType="BIGINT" property="rowsExamined" />
+    <result column="rows_affected" jdbcType="BIGINT" property="rowsAffected" />
+    <result column="full_scans" jdbcType="BIGINT" property="fullScans" />
+  </resultMap>
+</mapper>

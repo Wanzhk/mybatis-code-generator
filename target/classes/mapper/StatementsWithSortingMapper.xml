@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.StatementsWithSortingMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.StatementsWithSorting">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="db" jdbcType="VARCHAR" property="db" />
+    <result column="exec_count" jdbcType="BIGINT" property="execCount" />
+    <result column="total_latency" jdbcType="VARCHAR" property="totalLatency" />
+    <result column="sort_merge_passes" jdbcType="BIGINT" property="sortMergePasses" />
+    <result column="avg_sort_merges" jdbcType="DECIMAL" property="avgSortMerges" />
+    <result column="sorts_using_scans" jdbcType="BIGINT" property="sortsUsingScans" />
+    <result column="sort_using_range" jdbcType="BIGINT" property="sortUsingRange" />
+    <result column="rows_sorted" jdbcType="BIGINT" property="rowsSorted" />
+    <result column="avg_rows_sorted" jdbcType="DECIMAL" property="avgRowsSorted" />
+    <result column="first_seen" jdbcType="TIMESTAMP" property="firstSeen" />
+    <result column="last_seen" jdbcType="TIMESTAMP" property="lastSeen" />
+    <result column="digest" jdbcType="VARCHAR" property="digest" />
+    <result column="query" jdbcType="LONGVARCHAR" property="query" />
+  </resultMap>
+</mapper>

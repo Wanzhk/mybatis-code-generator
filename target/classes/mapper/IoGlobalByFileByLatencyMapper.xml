@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.IoGlobalByFileByLatencyMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.IoGlobalByFileByLatency">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="file" jdbcType="VARCHAR" property="file" />
+    <result column="total" jdbcType="BIGINT" property="total" />
+    <result column="total_latency" jdbcType="VARCHAR" property="totalLatency" />
+    <result column="count_read" jdbcType="BIGINT" property="countRead" />
+    <result column="read_latency" jdbcType="VARCHAR" property="readLatency" />
+    <result column="count_write" jdbcType="BIGINT" property="countWrite" />
+    <result column="write_latency" jdbcType="VARCHAR" property="writeLatency" />
+    <result column="count_misc" jdbcType="BIGINT" property="countMisc" />
+    <result column="misc_latency" jdbcType="VARCHAR" property="miscLatency" />
+  </resultMap>
+</mapper>

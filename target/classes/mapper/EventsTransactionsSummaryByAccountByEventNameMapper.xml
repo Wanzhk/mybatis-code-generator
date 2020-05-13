@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.EventsTransactionsSummaryByAccountByEventNameMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.EventsTransactionsSummaryByAccountByEventName">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="USER" jdbcType="CHAR" property="user" />
+    <result column="HOST" jdbcType="CHAR" property="host" />
+    <result column="EVENT_NAME" jdbcType="VARCHAR" property="eventName" />
+    <result column="COUNT_STAR" jdbcType="BIGINT" property="countStar" />
+    <result column="SUM_TIMER_WAIT" jdbcType="BIGINT" property="sumTimerWait" />
+    <result column="MIN_TIMER_WAIT" jdbcType="BIGINT" property="minTimerWait" />
+    <result column="AVG_TIMER_WAIT" jdbcType="BIGINT" property="avgTimerWait" />
+    <result column="MAX_TIMER_WAIT" jdbcType="BIGINT" property="maxTimerWait" />
+    <result column="COUNT_READ_WRITE" jdbcType="BIGINT" property="countReadWrite" />
+    <result column="SUM_TIMER_READ_WRITE" jdbcType="BIGINT" property="sumTimerReadWrite" />
+    <result column="MIN_TIMER_READ_WRITE" jdbcType="BIGINT" property="minTimerReadWrite" />
+    <result column="AVG_TIMER_READ_WRITE" jdbcType="BIGINT" property="avgTimerReadWrite" />
+    <result column="MAX_TIMER_READ_WRITE" jdbcType="BIGINT" property="maxTimerReadWrite" />
+    <result column="COUNT_READ_ONLY" jdbcType="BIGINT" property="countReadOnly" />
+    <result column="SUM_TIMER_READ_ONLY" jdbcType="BIGINT" property="sumTimerReadOnly" />
+    <result column="MIN_TIMER_READ_ONLY" jdbcType="BIGINT" property="minTimerReadOnly" />
+    <result column="AVG_TIMER_READ_ONLY" jdbcType="BIGINT" property="avgTimerReadOnly" />
+    <result column="MAX_TIMER_READ_ONLY" jdbcType="BIGINT" property="maxTimerReadOnly" />
+  </resultMap>
+</mapper>

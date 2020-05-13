@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.SlaveMasterInfoMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.SlaveMasterInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Channel_name" jdbcType="CHAR" property="channelName" />
+    <result column="Number_of_lines" jdbcType="INTEGER" property="numberOfLines" />
+    <result column="Master_log_pos" jdbcType="BIGINT" property="masterLogPos" />
+    <result column="Host" jdbcType="CHAR" property="host" />
+    <result column="Port" jdbcType="INTEGER" property="port" />
+    <result column="Connect_retry" jdbcType="INTEGER" property="connectRetry" />
+    <result column="Enabled_ssl" jdbcType="BIT" property="enabledSsl" />
+    <result column="Ssl_verify_server_cert" jdbcType="BIT" property="sslVerifyServerCert" />
+    <result column="Heartbeat" jdbcType="REAL" property="heartbeat" />
+    <result column="Retry_count" jdbcType="BIGINT" property="retryCount" />
+    <result column="Enabled_auto_position" jdbcType="BIT" property="enabledAutoPosition" />
+    <result column="Get_public_key" jdbcType="BIT" property="getPublicKey" />
+    <result column="Master_compression_algorithm" jdbcType="CHAR" property="masterCompressionAlgorithm" />
+    <result column="Master_zstd_compression_level" jdbcType="INTEGER" property="masterZstdCompressionLevel" />
+    <result column="Master_log_name" jdbcType="LONGVARCHAR" property="masterLogName" />
+    <result column="User_name" jdbcType="LONGVARCHAR" property="userName" />
+    <result column="User_password" jdbcType="LONGVARCHAR" property="userPassword" />
+    <result column="Ssl_ca" jdbcType="LONGVARCHAR" property="sslCa" />
+    <result column="Ssl_capath" jdbcType="LONGVARCHAR" property="sslCapath" />
+    <result column="Ssl_cert" jdbcType="LONGVARCHAR" property="sslCert" />
+    <result column="Ssl_cipher" jdbcType="LONGVARCHAR" property="sslCipher" />
+    <result column="Ssl_key" jdbcType="LONGVARCHAR" property="sslKey" />
+    <result column="Bind" jdbcType="LONGVARCHAR" property="bind" />
+    <result column="Ignored_server_ids" jdbcType="LONGVARCHAR" property="ignoredServerIds" />
+    <result column="Uuid" jdbcType="LONGVARCHAR" property="uuid" />
+    <result column="Ssl_crl" jdbcType="LONGVARCHAR" property="sslCrl" />
+    <result column="Ssl_crlpath" jdbcType="LONGVARCHAR" property="sslCrlpath" />
+    <result column="Tls_version" jdbcType="LONGVARCHAR" property="tlsVersion" />
+    <result column="Public_key_path" jdbcType="LONGVARCHAR" property="publicKeyPath" />
+    <result column="Network_namespace" jdbcType="LONGVARCHAR" property="networkNamespace" />
+    <result column="Tls_ciphersuites" jdbcType="LONGVARCHAR" property="tlsCiphersuites" />
+  </resultMap>
+</mapper>

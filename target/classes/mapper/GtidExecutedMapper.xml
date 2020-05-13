@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.GtidExecutedMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.GtidExecuted">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="source_uuid" jdbcType="CHAR" property="sourceUuid" />
+    <id column="interval_start" jdbcType="BIGINT" property="intervalStart" />
+    <result column="interval_end" jdbcType="BIGINT" property="intervalEnd" />
+  </resultMap>
+</mapper>

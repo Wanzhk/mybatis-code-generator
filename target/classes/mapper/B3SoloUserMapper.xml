@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.B3SoloUserMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.B3SoloUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="oId" jdbcType="VARCHAR" property="oid" />
+    <result column="userName" jdbcType="VARCHAR" property="username" />
+    <result column="userURL" jdbcType="VARCHAR" property="userurl" />
+    <result column="userRole" jdbcType="VARCHAR" property="userrole" />
+    <result column="userAvatar" jdbcType="VARCHAR" property="useravatar" />
+    <result column="userB3Key" jdbcType="VARCHAR" property="userb3key" />
+    <result column="userGitHubId" jdbcType="VARCHAR" property="usergithubid" />
+  </resultMap>
+</mapper>

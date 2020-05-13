@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.StatementAnalysisMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.StatementAnalysis">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="db" jdbcType="VARCHAR" property="db" />
+    <result column="full_scan" jdbcType="VARCHAR" property="fullScan" />
+    <result column="exec_count" jdbcType="BIGINT" property="execCount" />
+    <result column="err_count" jdbcType="BIGINT" property="errCount" />
+    <result column="warn_count" jdbcType="BIGINT" property="warnCount" />
+    <result column="total_latency" jdbcType="VARCHAR" property="totalLatency" />
+    <result column="max_latency" jdbcType="VARCHAR" property="maxLatency" />
+    <result column="avg_latency" jdbcType="VARCHAR" property="avgLatency" />
+    <result column="lock_latency" jdbcType="VARCHAR" property="lockLatency" />
+    <result column="rows_sent" jdbcType="BIGINT" property="rowsSent" />
+    <result column="rows_sent_avg" jdbcType="DECIMAL" property="rowsSentAvg" />
+    <result column="rows_examined" jdbcType="BIGINT" property="rowsExamined" />
+    <result column="rows_examined_avg" jdbcType="DECIMAL" property="rowsExaminedAvg" />
+    <result column="rows_affected" jdbcType="BIGINT" property="rowsAffected" />
+    <result column="rows_affected_avg" jdbcType="DECIMAL" property="rowsAffectedAvg" />
+    <result column="tmp_tables" jdbcType="BIGINT" property="tmpTables" />
+    <result column="tmp_disk_tables" jdbcType="BIGINT" property="tmpDiskTables" />
+    <result column="rows_sorted" jdbcType="BIGINT" property="rowsSorted" />
+    <result column="sort_merge_passes" jdbcType="BIGINT" property="sortMergePasses" />
+    <result column="digest" jdbcType="VARCHAR" property="digest" />
+    <result column="first_seen" jdbcType="TIMESTAMP" property="firstSeen" />
+    <result column="last_seen" jdbcType="TIMESTAMP" property="lastSeen" />
+    <result column="query" jdbcType="LONGVARCHAR" property="query" />
+  </resultMap>
+</mapper>

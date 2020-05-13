@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.SchemaAutoIncrementColumnsMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.SchemaAutoIncrementColumns">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="table_schema" jdbcType="VARCHAR" property="tableSchema" />
+    <result column="table_name" jdbcType="VARCHAR" property="tableName" />
+    <result column="column_name" jdbcType="VARCHAR" property="columnName" />
+    <result column="is_signed" jdbcType="INTEGER" property="isSigned" />
+    <result column="is_unsigned" jdbcType="INTEGER" property="isUnsigned" />
+    <result column="max_value" jdbcType="BIGINT" property="maxValue" />
+    <result column="auto_increment" jdbcType="BIGINT" property="autoIncrement" />
+    <result column="auto_increment_ratio" jdbcType="DECIMAL" property="autoIncrementRatio" />
+    <result column="data_type" jdbcType="LONGVARCHAR" property="dataType" />
+    <result column="column_type" jdbcType="LONGVARCHAR" property="columnType" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.EventsWaitsHistoryLongMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.EventsWaitsHistoryLong">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="THREAD_ID" jdbcType="BIGINT" property="threadId" />
+    <result column="EVENT_ID" jdbcType="BIGINT" property="eventId" />
+    <result column="END_EVENT_ID" jdbcType="BIGINT" property="endEventId" />
+    <result column="EVENT_NAME" jdbcType="VARCHAR" property="eventName" />
+    <result column="SOURCE" jdbcType="VARCHAR" property="source" />
+    <result column="TIMER_START" jdbcType="BIGINT" property="timerStart" />
+    <result column="TIMER_END" jdbcType="BIGINT" property="timerEnd" />
+    <result column="TIMER_WAIT" jdbcType="BIGINT" property="timerWait" />
+    <result column="SPINS" jdbcType="INTEGER" property="spins" />
+    <result column="OBJECT_SCHEMA" jdbcType="VARCHAR" property="objectSchema" />
+    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
+    <result column="INDEX_NAME" jdbcType="VARCHAR" property="indexName" />
+    <result column="OBJECT_TYPE" jdbcType="VARCHAR" property="objectType" />
+    <result column="OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="objectInstanceBegin" />
+    <result column="NESTING_EVENT_ID" jdbcType="BIGINT" property="nestingEventId" />
+    <result column="NESTING_EVENT_TYPE" jdbcType="CHAR" property="nestingEventType" />
+    <result column="OPERATION" jdbcType="VARCHAR" property="operation" />
+    <result column="NUMBER_OF_BYTES" jdbcType="BIGINT" property="numberOfBytes" />
+    <result column="FLAGS" jdbcType="INTEGER" property="flags" />
+  </resultMap>
+</mapper>

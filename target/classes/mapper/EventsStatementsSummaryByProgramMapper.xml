@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.EventsStatementsSummaryByProgramMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.EventsStatementsSummaryByProgram">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="OBJECT_TYPE" jdbcType="CHAR" property="objectType" />
+    <id column="OBJECT_SCHEMA" jdbcType="VARCHAR" property="objectSchema" />
+    <id column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
+    <result column="COUNT_STAR" jdbcType="BIGINT" property="countStar" />
+    <result column="SUM_TIMER_WAIT" jdbcType="BIGINT" property="sumTimerWait" />
+    <result column="MIN_TIMER_WAIT" jdbcType="BIGINT" property="minTimerWait" />
+    <result column="AVG_TIMER_WAIT" jdbcType="BIGINT" property="avgTimerWait" />
+    <result column="MAX_TIMER_WAIT" jdbcType="BIGINT" property="maxTimerWait" />
+    <result column="COUNT_STATEMENTS" jdbcType="BIGINT" property="countStatements" />
+    <result column="SUM_STATEMENTS_WAIT" jdbcType="BIGINT" property="sumStatementsWait" />
+    <result column="MIN_STATEMENTS_WAIT" jdbcType="BIGINT" property="minStatementsWait" />
+    <result column="AVG_STATEMENTS_WAIT" jdbcType="BIGINT" property="avgStatementsWait" />
+    <result column="MAX_STATEMENTS_WAIT" jdbcType="BIGINT" property="maxStatementsWait" />
+    <result column="SUM_LOCK_TIME" jdbcType="BIGINT" property="sumLockTime" />
+    <result column="SUM_ERRORS" jdbcType="BIGINT" property="sumErrors" />
+    <result column="SUM_WARNINGS" jdbcType="BIGINT" property="sumWarnings" />
+    <result column="SUM_ROWS_AFFECTED" jdbcType="BIGINT" property="sumRowsAffected" />
+    <result column="SUM_ROWS_SENT" jdbcType="BIGINT" property="sumRowsSent" />
+    <result column="SUM_ROWS_EXAMINED" jdbcType="BIGINT" property="sumRowsExamined" />
+    <result column="SUM_CREATED_TMP_DISK_TABLES" jdbcType="BIGINT" property="sumCreatedTmpDiskTables" />
+    <result column="SUM_CREATED_TMP_TABLES" jdbcType="BIGINT" property="sumCreatedTmpTables" />
+    <result column="SUM_SELECT_FULL_JOIN" jdbcType="BIGINT" property="sumSelectFullJoin" />
+    <result column="SUM_SELECT_FULL_RANGE_JOIN" jdbcType="BIGINT" property="sumSelectFullRangeJoin" />
+    <result column="SUM_SELECT_RANGE" jdbcType="BIGINT" property="sumSelectRange" />
+    <result column="SUM_SELECT_RANGE_CHECK" jdbcType="BIGINT" property="sumSelectRangeCheck" />
+    <result column="SUM_SELECT_SCAN" jdbcType="BIGINT" property="sumSelectScan" />
+    <result column="SUM_SORT_MERGE_PASSES" jdbcType="BIGINT" property="sumSortMergePasses" />
+    <result column="SUM_SORT_RANGE" jdbcType="BIGINT" property="sumSortRange" />
+    <result column="SUM_SORT_ROWS" jdbcType="BIGINT" property="sumSortRows" />
+    <result column="SUM_SORT_SCAN" jdbcType="BIGINT" property="sumSortScan" />
+    <result column="SUM_NO_INDEX_USED" jdbcType="BIGINT" property="sumNoIndexUsed" />
+    <result column="SUM_NO_GOOD_INDEX_USED" jdbcType="BIGINT" property="sumNoGoodIndexUsed" />
+  </resultMap>
+</mapper>

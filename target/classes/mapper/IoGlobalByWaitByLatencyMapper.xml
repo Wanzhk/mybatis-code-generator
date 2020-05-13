@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanzhk.mapper.IoGlobalByWaitByLatencyMapper">
+  <resultMap id="BaseResultMap" type="com.wanzhk.entity.IoGlobalByWaitByLatency">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="event_name" jdbcType="VARCHAR" property="eventName" />
+    <result column="total" jdbcType="BIGINT" property="total" />
+    <result column="total_latency" jdbcType="VARCHAR" property="totalLatency" />
+    <result column="avg_latency" jdbcType="VARCHAR" property="avgLatency" />
+    <result column="max_latency" jdbcType="VARCHAR" property="maxLatency" />
+    <result column="read_latency" jdbcType="VARCHAR" property="readLatency" />
+    <result column="write_latency" jdbcType="VARCHAR" property="writeLatency" />
+    <result column="misc_latency" jdbcType="VARCHAR" property="miscLatency" />
+    <result column="count_read" jdbcType="BIGINT" property="countRead" />
+    <result column="total_read" jdbcType="VARCHAR" property="totalRead" />
+    <result column="avg_read" jdbcType="VARCHAR" property="avgRead" />
+    <result column="count_write" jdbcType="BIGINT" property="countWrite" />
+    <result column="total_written" jdbcType="VARCHAR" property="totalWritten" />
+    <result column="avg_written" jdbcType="VARCHAR" property="avgWritten" />
+  </resultMap>
+</mapper>
